@@ -168,16 +168,20 @@ nav > a > span:first-child{
     grid-template-columns: 20% 80%;
     grid-template-rows: 20% 80%;
     background-color: #353649;
-    animation: boxshadow 6s infinite alternate-reverse;
+    animation: boxshadow 2s infinite alternate-reverse;
 }
 @keyframes boxshadow {
-    from{
-        box-shadow:0px 3px 15px violet;
-    }
-    to{
+    0%{
         box-shadow:0px 3px 20px #03051c;
     }
+
+    100%{
+        box-shadow:0px 3px 20px rgb(109, 52, 173);
+    }
 }
+/*    100%{
+        box-shadow:0px 3px 15px rgb(87, 38, 142);
+    }*/
 .me_proyects > div > img{
     max-width: 170px;
     height: 100px;
