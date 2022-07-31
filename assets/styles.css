@@ -7,6 +7,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
     position: relative;
+    background-color: #03051c;
 }
 
 header{
@@ -73,7 +74,7 @@ nav > a > span:first-child{
     font-weight: 900;
     border-left: #22a5b3 solid 3px;
     padding-left: 5px;
-    margin-top: 20px;
+    margin-top: 5vh;
 }
 .name h2{
     color: #22a5b3;
@@ -102,11 +103,11 @@ nav > a > span:first-child{
 .sobre_mi{
     color: white;
     background-color:#03051c;
-    height: calc(40vh - 140px);
+    height: max-content;
     width: 80vw;
     grid-area: 2 / 2 / 3 / 2;
     text-align:left;
-    margin-top: 50px;
+    margin-top: 15vh;
     border-left:solid #22a5b3;
     padding-left: 5px;
 }
