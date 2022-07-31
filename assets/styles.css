@@ -21,7 +21,7 @@ header{
     height: 7vh;
     justify-content: space-between;
     align-items: center;
-    padding: 6px 6px ;
+    padding: 6px;
     position: fixed;
     top: 0;
     z-index: 1;
@@ -37,6 +37,20 @@ nav > a > span:first-child{
     color: #22a5b3;
     font-size: 1.8rem;
     font-weight: 900;
+}
+.hamburguer{
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.hamburguer:active{
+    background-color: #03051c;
+}
+.nav_bar > button > img{
+    max-width: 40px;
+    max-height: 30px;
+    padding-right: 16px;
 }
 
 .inicio{
@@ -87,15 +101,14 @@ nav > a > span:first-child{
 
 .sobre_mi{
     color: white;
-    background-color: #353649;
-    height: calc(40vh - 80px);
+    background-color:#03051c;
+    height: calc(40vh - 140px);
     width: 80vw;
     grid-area: 2 / 2 / 3 / 2;
-    text-align: center;
-    padding-top: 10px;
-    border-radius: 15px;
-    margin-top: 20px;
-    
+    text-align:left;
+    margin-top: 50px;
+    border-left:solid #22a5b3;
+    padding-left: 5px;
 }
 .me_skills > div img{
     max-width: 70px;
@@ -133,6 +146,7 @@ nav > a > span:first-child{
     align-items: center;
     padding-top: 10px;
     font-weight: 900;
+    gap: 10px;
 }
 .css{
     grid-row: 4;
@@ -142,6 +156,7 @@ nav > a > span:first-child{
     align-items: center;
     padding-top: 10px;
     font-weight: 900;
+    gap: 10px;
 }
 .react{
     grid-row: 5;
@@ -242,6 +257,15 @@ nav > a > span:first-child{
     padding-top: 5px;
     padding-left: 15px;
 }
-
-
-
+.contact{
+    height: calc(100vh - 54px);
+    color: white;
+    padding: 0;
+    font-size: 1rem;
+    display: grid;
+    grid-template-rows: 5% 25% 25% 25% 20%;
+    grid-column: 2/3;
+    justify-content: center;
+    align-self: flex-start;
+    row-gap: 1.8em;
+}
