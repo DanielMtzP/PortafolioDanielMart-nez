@@ -6,19 +6,25 @@
 body{
     font-family: 'Montserrat', sans-serif;
     box-sizing: border-box;
+    position: relative;
 }
 
 header{
     background-color: #03051c;
-    height: 100vh;
+    height: calc(100vh - 54px) ;
+    margin-top: 54px;
 }
 .nav_bar{
     display: flex;
+    width: 100vw;
     background-color: #1c1d32;
-    height: 8vh;
+    height: 7vh;
     justify-content: space-between;
     align-items: center;
     padding: 6px 6px ;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 nav > a{
     color:  white;
