@@ -13,13 +13,19 @@
 <body>
     <header>
         <nav class="nav_bar">
-            <a>
+            <a href="#">
                 <span>DN</span>
                 Mtz.
             </a>
             <button class="hamburguer">
                 <img src="./assets/img/hamburguesa(1).png">
             </button>
+            <ul class="nav_menu">
+                <li><a class="h" href="#">Inicio</a></li>
+                <li><a class="s" href="#skills">Habilidades</a></li>
+                <li><a class="p"  href="#proyects">Proyectos</a></li>
+                <li><a class="c" href="#contact">Contacto</a></li>
+            </ul>
         </nav>
         <section class="inicio">
             <div class="name">
@@ -33,11 +39,11 @@
                 </h2>
             </div>
             <div class="sobre_mi">
-                Hola, soy desarrollador front-end de México-CDMX, con gran pasión por el diseño web y siempre en busca de mejorar mis habilidades. 
+                Hola, soy un desarrollador front-end de México-CDMX, con gran pasión por el diseño web y siempre en busca de mejorar mis habilidades. 
             </div>
         </section>
     </header>
-    <article class="me">
+    <article id='skills' class="me">
         <section class="me_skills">
             <div class="js"data-aos="zoom-in">
                 JavaScript
@@ -56,7 +62,7 @@
                 <img src="./assets/img/atom.png">
             </div>
         </section>
-        <section class="me_proyects">
+        <section id="proyects" class="me_proyects">
             <div class="p1" data-aos="fade-right">
                 <div class="p_section">
                     <img src="./assets/img/github.png">
@@ -82,14 +88,21 @@
                 <img src="./assets/img/Rectangle 53.jpg">
             </div>
         </section>
-        <section class="contact">
+        <section id="contact" class="contact">
             <body>
                 <div class="icons-wrapper">
-                    <i class="ri-mail-send-line icon"></i>
-                    <i class="ri-facebook-circle-line icon"></i>
-                    <i class="ri-whatsapp-line icon"></i>
+                    <a href="mailto:danien888@hotmail.com">
+                        <i class="ri-mail-send-line icon"></i>
+                    </a>
+                    <a href="https://github.com/DanielMtzP?tab=repositories">
+                        <i class="ri-github-fill icon"></i>
+                    </a>
+                    <a href="https://wa.me/5519061300">
+                    
+                        <i class="ri-whatsapp-line icon"></i>
+                    </a>
                 </div>
-                <a href="#" class="button">Descargar CV</a>
+                <a class="button">Descargar CV</a>
             </body>
 
         </section>
