@@ -520,6 +520,7 @@ nav > a > span:first-child{
 }
 @media screen and (min-width: 1110px){
     .photo{
+        top: 10vh;
         margin-left: 500px;
     }
     .inicio{
