@@ -103,7 +103,19 @@ nav > a > span:first-child{
     margin-right: 10%;
     row-gap: 20px;
 }
-
+.photo{
+    position: absolute;
+    height: 40vh;
+    width: 80vw;
+    z-index: -0;
+    top: 0px;
+    margin-left: 7vw;
+    margin-top: 5vh;
+}
+.photo > img{
+    width: 80%;
+    max-width: 248px;
+}
 .name{
     color: white;
     background-color:#03051c;
@@ -119,6 +131,7 @@ nav > a > span:first-child{
     border-left: #22a5b3 solid 3px;
     padding-left: 5px;
     margin-top: 5vh;
+    z-index: 2;
 }
 .name h2{
     color: #22a5b3;
@@ -391,6 +404,10 @@ nav > a > span:first-child{
 
 @media screen and (min-width: 430px){
 
+    .photo{
+        margin-left: 15vw;
+    }
+
     .me{
         padding-top: 56px;
     }
@@ -417,6 +434,9 @@ nav > a > span:first-child{
     }
 }
 @media screen and (min-width: 661px){
+    .photo{
+        margin-left: 30vw;
+    }
     .name h1{
         font-size: 2rem;
     }
@@ -442,6 +462,9 @@ nav > a > span:first-child{
     }
 }
 @media screen and (min-width: 1024px){
+    .photo{
+        margin-left: 45vw;
+    }
     .nav_bar > ul{
         top:0px;
         width: auto;
@@ -496,6 +519,9 @@ nav > a > span:first-child{
     }   
 }
 @media screen and (min-width: 1110px){
+    .photo{
+        margin-left: 500px;
+    }
     .inicio{
         margin-left: 10%;
         margin-right: 10%;
