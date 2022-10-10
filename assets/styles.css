@@ -222,7 +222,7 @@ nav > a > span:first-child{
 }
 
 .me_proyects{
-    height: calc(100vh - 180px);
+    height: auto;
     color: #22a5b3;
     font-size: 1rem;
     display: flex;
@@ -230,7 +230,7 @@ nav > a > span:first-child{
     grid-column: 2/3;
     justify-content: center;
     align-items: center;
-    gap: 1.8em;
+    gap: 4em;
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: scroll;
@@ -264,7 +264,7 @@ nav > a > span:first-child{
         box-shadow:0px 3px 15px rgb(87, 38, 142);
     }*/
 .me_proyects > div > img{
-    max-width: 170px;
+    max-width: 150px;
     height: 100px;
     grid-column: 2;
     grid-row: 2;
@@ -285,7 +285,7 @@ nav > a > span:first-child{
     flex-wrap: wrap;
     row-gap: 15px;
 }
-.p_section > img{
+.p_section > a, img{
     max-width: 40px;
     margin-left: 10px;
 }
