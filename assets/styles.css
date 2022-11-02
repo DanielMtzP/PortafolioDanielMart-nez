@@ -97,8 +97,8 @@ nav > a > span:first-child{
 }
 
 .inicio{
-    display: flex;
-    flex-direction: column;
+display: flex;
+flex-direction: column;
     margin-left: 10%;
     margin-right: 10%;
     row-gap: 20px;
@@ -241,13 +241,13 @@ nav > a > span:first-child{
     display: flex;
     flex-wrap: wrap;
     grid-column: 2/3;
-    justify-content: center;
+    justify-content:space-between;
     align-items: center;
-    gap: 4em;
+    justify-content: center;
+    gap: 3em;
     padding-top: 20px;
     padding-bottom: 20px;
     overflow: scroll;
-    animation: boxshadow 2s infinite alternate-reverse;
     border-radius: 10px;
 }
 .me_proyects::-webkit-scrollbar {
